@@ -106,6 +106,38 @@
     justify-content: space-between;
 }
 
+.pokemon .abilityList .ability {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon .abilityList .ability .abilitie {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.pokemon .statList .stats {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pokemon .statList .stats .stat {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
 .pokemon .detail .types {
     padding: 0;
     margin: 0;
@@ -137,6 +169,44 @@
 }
 
 .pagination button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+.abilitiesList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.abilitiesList button {
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+.statsList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.statsList button {
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;

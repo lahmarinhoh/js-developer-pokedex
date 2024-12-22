@@ -14,6 +14,24 @@ body {
     background-color: #fff;
 }
 
+.container {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+    .titulo {
+        text-align: center;
+        position: relative;
+        margin:  0;
+        padding: 0;
+    }
+
+    .pokemonsList {
+        position: relative;
+        padding: 1rem;
+    }
+
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
